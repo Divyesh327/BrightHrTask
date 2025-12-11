@@ -1,3 +1,7 @@
+//Test to create new and verify employees in the employee list
+// Will create more iteration of the employee for this the test needs to be run once and then need to delete the employees created
+// The test was created to verify that the new employees are added to the list and visible with their respective designations
+
 import { test } from '@playwright/test';
 import LoginPage from '../pages/loginPage'; 
 import DashboardPage from '../pages/dashboard';
